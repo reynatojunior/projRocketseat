@@ -6,14 +6,14 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   //substituir a imagem
-if (html.classList.contains("light")) {
-   img.setAttribute('src', './assets/avatar-light.png')
+  if (html.classList.contains("light")) {
+    img.setAttribute("src", "./assets/avatar-light.png")
   } else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute("src", "./assets/avatar.png")
   }
 
-/*
+  /*
   
   */
- html.classList.toggle('light')
+  html.classList.toggle("light")
 }
