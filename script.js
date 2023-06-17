@@ -7,9 +7,9 @@ function toggleMode() {
 
   //substituir a imagem
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/av-teste.png")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/av-teste.png")
   }
 
   /*
